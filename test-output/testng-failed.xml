@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="LastTest">
+        <methods>
+          <include name="verify_filling_contact_form_and_submit"/>
+          <include name="AfterTest"/>
+          <include name="search_for_cat"/>
+          <include name="BeforTest"/>
+        </methods>
+      </class> <!-- LastTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
